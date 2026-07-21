@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.pyc
+
+# Relay runtime state (generated at run time, not source)
+state/relay/baton.json
+state/relay/baton.consumed-*
+state/relay/*.log
+*.relay.json
